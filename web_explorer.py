@@ -5,6 +5,8 @@ from langchain.retrievers.web_research import WebResearchRetriever
 
 import os
 
+# First commit
+
 os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY" # Get it at https://console.cloud.google.com/apis/api/customsearch.googleapis.com/credentials
 os.environ["GOOGLE_CSE_ID"] = "YOUR_CSE_ID" # Get it at https://programmablesearchengine.google.com/
 os.environ["OPENAI_API_BASE"] = "https://api.openai.com/v1"
